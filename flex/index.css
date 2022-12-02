@@ -1,0 +1,155 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: sans-serif;
+}
+
+.container-div {
+  width: 1100px;
+  margin: 100px;
+  padding: 100px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: row;
+  /*flex-direction: column;*/
+  /*flex-direction: column-reverse;*/
+  /*flex-wrap: wrap;*/
+  flex-wrap: wrap-reverse;
+}
+
+.flex-item {
+  width: 100px;
+  border-radius: 10px;
+  color: white;
+  margin: 20px;
+  background-color: blue;
+  padding: 30px;
+}
+
+.container-flex {
+  width: 1100px;
+  margin: 100px;
+  padding: 100px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  /*flex-direction: row;*/
+  /*flex-direction: column;*/
+  flex-direction: column-reverse;
+  /*flex-wrap: wrap;*/
+
+}
+
+.flex {
+  width: 550px;
+  border-radius: 10px;
+  color: rgb(83, 81, 78);
+  background-color: lawngreen;
+  padding: 20px;
+  margin: 20px;
+}
+
+.flex:hover {
+  background-color: aqua;
+  color: blue;
+  cursor: pointer;
+}
+
+.container-flow {
+  width: 1100px;
+  margin: 100px;
+  padding: 30px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.flexs {
+  width: 150px;
+  background-color: lightcoral;
+  color: rgb(23, 167, 85);
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+
+}
+
+.container-box {
+  width: 1100px;
+  margin: 100px;
+  padding: 30px 20px;
+  border: 1px solid black;
+  border-radius: 5px;
+  display: flex;
+  flex-flow: row-reverse wrap;
+}
+
+.flow {
+  width: 150px;
+  background-color: darkmagenta;
+  color: hotpink;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 20px;
+}
+
+/*.box {
+  width: 1000px;
+  padding: 30px 0;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 100px;
+}*/
+
+.box-title {
+  padding: 20px;
+  background-color: blue;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+.box {
+  width: 1000px;
+  background-color: lightcoral;
+  color: black;
+  border-radius: 5px;
+  padding: 30px;
+  border: 2px solid black;
+  margin: 20px;
+  display: flex;
+}
+
+.box-start {
+  display: flex;
+  justify-content: flex-start;
+}
+
+.box-end {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.box-center {
+  display: flex;
+  justify-content: center;
+}
+
+.box-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+.box-around {
+  display: flex;
+  justify-content: space-around;
+}
+
+.box-evenly {
+  display: flex;
+  justify-content: space-evenly;
+}
